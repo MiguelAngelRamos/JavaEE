@@ -15,7 +15,7 @@
 				<div class="col-6 offset-3">
 				
 				  <h2 class="text-center mb-5"> Formulario de Datos </h2>
-				  
+				  <!-- Formulario para crear un Usuario -->
 				  <form action="Usuarios" method="post">
 				  
 				  	<div class="mb-3">
@@ -78,6 +78,21 @@
 						<button type="submit" class="btn btn-primary">Enviar</button>
 					</div>
 				  </form>
+				   <!-- END Formulario para crear un Usuario -->
+				   
+		
+				</div>
+			</div>
+			
+			<div class="row mt-2">
+				<div class="col-6 offset-3">
+				<!-- Obtener datos de BD -->
+				   <form action="Usuarios" method="GET">
+				   	<div class="d-grid gap-2">
+				   		<button class="btn btn-success">Obtener Usuarios</button>
+				   	</div>
+				   </form>
+				   <!-- END Obtener datos de BD -->
 				</div>
 			</div>
 		</div>
