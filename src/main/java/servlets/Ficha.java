@@ -37,6 +37,7 @@ public class Ficha extends HttpServlet {
 		String apellido = request.getParameter("apellido");
 		String lenguaje = request.getParameter("lenguaje");
 		
+		
 		out.println("<html>"
 		    + "<head><link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\"  rel=\"stylesheet\"></head>"
 		    + "<body>");
